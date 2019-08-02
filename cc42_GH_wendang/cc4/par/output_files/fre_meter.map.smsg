@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at meter.v(34): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at data.v(125): always construct contains both blocking and non-blocking assignments

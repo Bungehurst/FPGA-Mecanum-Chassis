@@ -1,0 +1,75 @@
+# Reading C:/altera/12.0/modelsim_ase/modelsim_ase/tcl/vsim/pref.tcl 
+# do fre_meter_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.0\modelsim_ase\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0\modelsim_ase\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/fre_meter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fre_meter
+# 
+# Top level modules:
+# 	fre_meter
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/meter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module meter
+# 
+# Top level modules:
+# 	meter
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/clk_div.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clk_div
+# 
+# Top level modules:
+# 	clk_div
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/uart_send.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_send
+# 
+# Top level modules:
+# 	uart_send
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/dir.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dir
+# 
+# Top level modules:
+# 	dir
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl {C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/data.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim {C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fre_meter_vlg_tst
+# 
+# Top level modules:
+# 	fre_meter_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  fre_meter_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps fre_meter_vlg_tst 
+# Loading work.fre_meter_vlg_tst
+# Loading work.fre_meter
+# Loading work.clk_div
+# Loading work.meter
+# Loading work.dir
+# Loading work.data
+# Loading work.uart_send
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module fre_meter_vlg_tst at C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt line 101
+# Simulation Breakpoint: Break in Module fre_meter_vlg_tst at C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt line 101
+# MACRO ./fre_meter_run_msim_rtl_verilog.do PAUSED at line 22

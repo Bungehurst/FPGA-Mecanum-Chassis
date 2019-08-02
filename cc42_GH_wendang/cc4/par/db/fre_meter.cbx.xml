@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="fre_meter">
+		<CBX_INST_ENTRY INSTANCE_NAME="|fre_meter|meter:u_meter0|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_pkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fre_meter|meter:u_meter1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_pkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fre_meter|meter:u_meter2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_pkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fre_meter|meter:u_meter3|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_pkm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

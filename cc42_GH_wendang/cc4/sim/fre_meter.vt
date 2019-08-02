@@ -1,0 +1,132 @@
+//// Copyright (C) 1991-2013 Altera Corporation
+//// Your use of Altera Corporation's design tools, logic functions 
+//// and other software and tools, and its AMPP partner logic 
+//// functions, and any output files from any of the foregoing 
+//// (including device programming or simulation files), and any 
+//// associated documentation or information are expressly subject 
+//// to the terms and conditions of the Altera Program License 
+//// Subscription Agreement, Altera MegaCore Function License 
+//// Agreement, or other applicable license agreement, including, 
+//// without limitation, that your use is for the sole purpose of 
+//// programming logic devices manufactured by Altera and sold by 
+//// Altera or its authorized distributors.  Please refer to the 
+//// applicable agreement for further details.
+//
+//// *****************************************************************************
+//// This file contains a Verilog test bench template that is freely editable to  
+//// suit user's needs .Comments are provided in each section to help the user    
+//// fill out necessary details.                                                  
+//// *****************************************************************************
+//// Generated on "07/08/2019 10:36:44"
+//                                                                                
+//// Verilog Test Bench template for design : fre_meter
+//// 
+//// Simulation tool : ModelSim-Altera (Verilog)
+//// 
+//
+//`timescale 1 ps/ 1 ps
+//module fre_meter_vlg_tst();
+//reg clk_b;
+//reg clk_d;
+//reg rst_n;
+//// wires                                               
+//wire [19:0]  cnt_h_out;
+//
+//// assign statements (if any)                          
+//fre_meter i1 (
+//// port map - connection between master ports and signals/registers   
+//	.clk_b(clk_b),
+//	.clk_d(clk_d),
+//	.cnt_h_out(cnt_h_out),
+//	.rst_n(rst_n)
+//);
+//initial                                                
+//begin                                                              
+//	 clk_b  = 1'b0;
+//	 clk_d = 1'b0;
+//	 rst_n = 1'b0;
+//	 #1000 rst_n = 1'b1;                     
+//end           
+//                                         
+//always   #10 clk_b = ~clk_b;                                                        
+//always   
+//begin 
+//	#100000 clk_d = 1'b0;   
+//	#100000 clk_d = 1'b1; 
+//	#200000 clk_d = 1'b0;
+//	#100000 clk_d = 1'b1;
+//	#104400 clk_d = 1'b0;
+//	#100000 clk_d = 1'b1;
+//	#231000 clk_d = 1'b0;
+//	#100000 clk_d = 1'b1;
+//end
+//endmodule
+
+//// Copyright (C) 1991-2013 Altera Corporation
+//// Your use of Altera Corporation's design tools, logic functions 
+//// and other software and tools, and its AMPP partner logic 
+//// functions, and any output files from any of the foregoing 
+//// (including device programming or simulation files), and any 
+//// associated documentation or information are expressly subject 
+//// to the terms and conditions of the Altera Program License 
+//// Subscription Agreement, Altera MegaCore Function License 
+//// Agreement, or other applicable license agreement, including, 
+//// without limitation, that your use is for the sole purpose of 
+//// programming logic devices manufactured by Altera and sold by 
+//// Altera or its authorized distributors.  Please refer to the 
+//// applicable agreement for further details.
+//
+//// *****************************************************************************
+//// This file contains a Verilog test bench template that is freely editable to  
+//// suit user's needs .Comments are provided in each section to help the user    
+//// fill out necessary details.                                                  
+//// *****************************************************************************
+//// Generated on "07/09/2019 10:36:23"
+//                                                                                
+//// Verilog Test Bench template for design : fre_meter
+//// 
+//// Simulation tool : ModelSim-Altera (Verilog)
+//// 
+//
+`timescale 1 ns/ 1 ps
+module fre_meter_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clkin;
+reg datain;
+// wires                                               
+wire clkout;
+wire [31:0]  cnt;
+
+// assign statements (if any)                          
+fre_meter i1 (
+// port map - connection between master ports and signals/registers   
+	.clkin(clkin),
+	.clkout(clkout),
+	.cnt(cnt),
+	.datain(datain)
+);
+initial                                                
+begin                                                  
+    clk_in  = 1'b0;
+	 clk_out = 1'b0;
+	 rst_n = 1'b0;
+	 #1000 rst_n = 1'b1;                     
+end           
+                                         
+always   #10 clk_in = ~clk_in;                                                        
+always   
+begin 
+	#100000 clk_out = 1'b0;   
+	#100000 clk_out = 1'b1; 
+	#200000 clk_out = 1'b0;
+	#100000 clk_out = 1'b1;
+	#104400 clk_out = 1'b0;
+	#100000 clk_out = 1'b1;
+	#231000 clk_out = 1'b0;
+	#100000 clk_out = 1'b1;                                            
+end                                                    
+endmodule
+

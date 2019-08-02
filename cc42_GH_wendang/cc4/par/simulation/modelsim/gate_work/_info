@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Desktop\cc4\par\simulation\modelsim
+vfre_meter
+Iz5z9S64P^MTL2SRE@8]`<3
+V;STbQHN^feZWYGA_eN1:m3
+Z1 dE:\Desktop\cc4\par\simulation\modelsim
+w1563802905
+8fre_meter_8_1200mv_85c_slow.vo
+Ffre_meter_8_1200mv_85c_slow.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 1eO<mP7MMaTO3F?4Qc;Wa0
+!s85 0
+!s108 1563803158.896000
+!s107 fre_meter_8_1200mv_85c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|fre_meter_8_1200mv_85c_slow.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vfre_meter_vlg_tst
+!i10b 1
+!s100 L2FN8odmHTj`e9FAT66UM0
+IY]eRInEn`ScWU8k`JIO8m2
+V^zO_Xc1g=;Hd2>Y9oIgnh0
+R1
+w1563803006
+8E:/Desktop/cc4/par/simulation/modelsim/fre_meter.vt
+FE:/Desktop/cc4/par/simulation/modelsim/fre_meter.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1563803160.469000
+!s107 E:/Desktop/cc4/par/simulation/modelsim/fre_meter.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Desktop/cc4/par/simulation/modelsim|E:/Desktop/cc4/par/simulation/modelsim/fre_meter.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+E:/Desktop/cc4/par/simulation/modelsim -O0

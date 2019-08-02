@@ -1,0 +1,20 @@
+module data(
+	input sys_clk  ,    //时钟信号
+   input sys_rst_n,    // 复位信号
+	input dir0, 				// 基准时钟信号
+	input data_fx0, 				// 被测时钟信号
+	output reg [15:0] data0	// 被测时钟周期输出
+);
+always @ (posedge sys_clk)
+begin
+	if(!sys_rst_n)
+		begin
+	   data0 <= 0;	
+		end
+	else
+		data[14:0] <= data_fx0;
+		data[15] <= dir0;
+end
+endmodule
+
+

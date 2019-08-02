@@ -1,0 +1,53 @@
+module fre_meter
+(
+	input clkin, 				// 基准时钟信号
+	input datain, 				// 被测时钟信号
+	input rst_n ,     		// 复位信号 
+	output reg [19:0] cnt	// 被测时钟频率输出
+);
+
+reg [1:0] datatmp = 0;
+reg [19:0] cnttmp = 0;            
+reg flag = 1'b0;
+
+//拼接符号检测上升沿
+always @ (posedge clkin)
+begin
+	if(!rst_n)	datatmp <= 2'b0;
+	else datatmp = {datain,datatmp[1]};  //捕获沿的方法
+end
+//低频测周
+always @ (posedge clkin)
+begin
+	if(!rst_n) 
+	begin
+		cnt<=32'b0;
+		cnttmp<=32'b0;
+		flag<=0;
+	end
+	else
+	begin
+		if(datatmp == 2'b10) //上升沿
+		begin
+			if(flag == 0)
+			begin 
+				cnt <= cnttmp + 1;
+				cnttmp <= 32'b0;
+			end
+			else flag <=0;
+		end
+		else
+		begin
+			if(cnttmp < 9'd500&&flag == 0)	cnttmp <= cnttmp + 1'b1; 
+			else
+			begin
+				flag <= 1'b1;
+				cnt <= 19'b0;
+				cnttmp <= 32'b0;
+			end
+		end
+	end
+end
+endmodule 
+
+

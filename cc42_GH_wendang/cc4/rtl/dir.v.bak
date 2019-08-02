@@ -1,0 +1,15 @@
+module dir
+(
+	input clkin, 				// 基准时钟信号
+	input datain0a, 				// 被测时钟信号
+	input datain0b, 				// 被测时钟信号
+	input rst_n ,     		// 复位信号 
+	output dir	// 方向
+
+);
+always @ (posedge datain0a)
+begin
+	dir <= datain0b;
+end
+
+endmodule

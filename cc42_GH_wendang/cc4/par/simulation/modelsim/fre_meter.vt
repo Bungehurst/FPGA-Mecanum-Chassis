@@ -1,0 +1,104 @@
+// Copyright (C) 1991-2012 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "07/25/2019 11:33:51"
+                                                                                
+// Verilog Test Bench template for design : fre_meter
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module fre_meter_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clk_fx0a;
+reg clk_fx0b;
+reg clk_fx1a;
+reg clk_fx1b;
+reg clk_fx2a;
+reg clk_fx2b;
+reg clk_fx3a;
+reg clk_fx3b;
+reg sys_clk;
+reg sys_rst_n;
+// wires                                               
+wire clk_out;
+wire clk_sam;
+wire uart_txd;
+
+// assign statements (if any)                          
+fre_meter i1 (
+// port map - connection between master ports and signals/registers   
+	.clk_fx0a(clk_fx0a),
+	.clk_fx0b(clk_fx0b),
+	.clk_fx1a(clk_fx1a),
+	.clk_fx1b(clk_fx1b),
+	.clk_fx2a(clk_fx2a),
+	.clk_fx2b(clk_fx2b),
+	.clk_fx3a(clk_fx3a),
+	.clk_fx3b(clk_fx3b),
+	.clk_out(clk_out),
+	.clk_sam(clk_sam),
+	.sys_clk(sys_clk),
+	.sys_rst_n(sys_rst_n),
+	.uart_txd(uart_txd)
+);
+
+
+initial                                                
+                                              
+begin                                                  
+	 clk_fx0a  = 1'b0;
+	 clk_fx0b  = 1'b0; 
+	  clk_fx1a  = 1'b0;
+	 clk_fx1b  = 1'b0; 
+	  clk_fx2a  = 1'b0;
+	 clk_fx2b  = 1'b0; 
+	  clk_fx3a  = 1'b0;
+	 clk_fx3b  = 1'b0; 
+	 sys_clk = 1'b0;
+	 sys_rst_n = 1'b0;
+	 #1000 
+	 sys_rst_n = 1'b1;                     
+end           
+
+always   #10 sys_clk = ~sys_clk;                                                        
+always   
+begin
+ 
+	#3120000 clk_fx0a = 1'b1; clk_fx1a = 1'b1; clk_fx2a = 1'b1; clk_fx2a = 1'b1;    
+	#5000 clk_fx0b = 1'b1; clk_fx1b = 1'b1; clk_fx2b = 1'b1; clk_fx3b = 1'b1; 
+
+	#3120000 clk_fx0a = 1'b0; clk_fx1a = 1'b0; clk_fx2a = 1'b0; clk_fx3a = 1'b0;  
+	#5000 clk_fx0b = 1'b0; clk_fx1b = 1'b0; clk_fx2b = 1'b0; clk_fx3b = 1'b0; 
+	
+	#3120000 clk_fx0a = 1'b1; clk_fx1a = 1'b1; clk_fx2a = 1'b1; clk_fx2a = 1'b1;    
+	#5000 clk_fx0b = 1'b1; clk_fx1b = 1'b1; clk_fx2b = 1'b1; clk_fx3b = 1'b1; 
+
+	#3120000 clk_fx0a = 1'b0; clk_fx1a = 1'b0; clk_fx2a = 1'b0; clk_fx3a = 1'b0;  
+	#5000 clk_fx0b = 1'b0; clk_fx1b = 1'b0; clk_fx2b = 1'b0; clk_fx3b = 1'b0; 
+ 
+	   
+	$stop;
+end                                                  
+endmodule
+

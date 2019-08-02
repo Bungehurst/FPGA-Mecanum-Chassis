@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\cc42_GH\cc4\par\simulation\modelsim
+vclk_div
+IXMc@2^M5R00VGc9KPl14A3
+VKih<QCaQYg6Wjn?6=UO7l1
+Z1 dC:\Users\Administrator\Desktop\cc42_GH\cc4\par\simulation\modelsim
+Z2 w1563976514
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/clk_div.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/clk_div.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl -O0
+!i10b 1
+!s100 ^=IJRa6A0ShB;M>L>z?NF0
+!s85 0
+!s108 1564025704.423000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/clk_div.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/clk_div.v|
+!s101 -O0
+vdata
+I;B2X0J;zGKG4g3a_Ra]i>2
+VZfSQND63d81ZfXNV2d6`<1
+R1
+w1563976513
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/data.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/data.v
+L0 3
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 WSO>95@__N5NEmVjB]f7j0
+!s85 0
+!s108 1564025705.140000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/data.v|
+!s101 -O0
+vdir
+I_RolBDY`K2`<IiI8[=NcM1
+Vc?:zA>[_GiO7a4Zk=XW[X3
+R1
+w1563889522
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/dir.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/dir.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 3BO:zN9Hmo1T=FH2kImFF1
+!s85 0
+!s108 1564025704.821000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/dir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/dir.v|
+!s101 -O0
+vfre_meter
+I55IW78zWd38JH_T5QGOO82
+Vl@G9nE:zBbkGJNYh`XjM51
+R1
+w1564020340
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/fre_meter.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/fre_meter.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 :9oCQhWj`5`YZeJe8zi5^3
+!s85 0
+!s108 1564025703.705000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/fre_meter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/fre_meter.v|
+!s101 -O0
+vfre_meter_vlg_tst
+!i10b 1
+!s100 9M[>MXhCM;Na_R_lbn57<1
+I;0PFii59<@]YR[jPeB8[Z0
+V^zO_Xc1g=;Hd2>Y9oIgnh0
+R1
+w1564025692
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt
+L0 28
+R3
+r1
+!s85 0
+31
+!s108 1564025705.454000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim|C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim/fre_meter.vt|
+!s101 -O0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/par/simulation/modelsim -O0
+vmeter
+I0AD5zQH^I8Hh3Y=[^a[]O0
+Vl@W^H[JDo;g]>JTbJi3Ko2
+R1
+R2
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/meter.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/meter.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 CYB^TFB>9Pkd;GR1bghmX2
+!s85 0
+!s108 1564025703.939000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/meter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/meter.v|
+!s101 -O0
+vuart_send
+IckSjNb7RB[24VdC5GOcR91
+V@K4b2cDSG1a`hAjo2mA_R0
+R1
+w1563976515
+8C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/uart_send.v
+FC:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/uart_send.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 b@F@J1^TeQ<N[[C<HSld?2
+!s85 0
+!s108 1564025704.610000
+!s107 C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/uart_send.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl|C:/Users/Administrator/Desktop/cc42_GH/cc4/rtl/uart_send.v|
+!s101 -O0
