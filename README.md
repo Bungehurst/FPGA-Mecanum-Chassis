@@ -1,1 +1,1 @@
-# G194-FPGA_CAR
+# Here is the FPGA programme of the mecanum chassis project.
